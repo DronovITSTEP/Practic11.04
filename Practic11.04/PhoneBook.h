@@ -48,7 +48,7 @@ public:
 	void PrintAbonent();
 	static PhoneBook AddAbonent();
 	static void DeleteAbonent(PhoneBook* p, int index, int size);
-	//void SaveAbonent();
-	//void LoadAbonent();
+	void SaveAbonent();
+	void LoadAbonent();
 };
 

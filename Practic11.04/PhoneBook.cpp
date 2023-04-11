@@ -119,5 +119,5 @@ void PhoneBook::DeleteAbonent(PhoneBook* p, int index, int size) {
 	delete[]p[size - 1].mobilePhone;
 	delete[]p[size - 1].info;
 }
-//void PhoneBook::SaveAbonent() {}
-//void PhoneBook::LoadAbonent() {}
+void PhoneBook::SaveAbonent() {}
+void PhoneBook::LoadAbonent() {}
